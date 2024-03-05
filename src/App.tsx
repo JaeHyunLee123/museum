@@ -1,10 +1,9 @@
-import { Button } from "./components/shadcn/Button";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div>
-      <header className="font-extrabold text-2xl">hi</header>
-      <Button>Hello</Button>
+      <Header />
     </div>
   );
 }
